@@ -19,7 +19,7 @@ struct proyectodos: View {
         
          List(self.postListML.posts, id: \.id){ post in
              VStack(alignment: .center){
-                WebImage(url:URL(string: post.image_url)).resizable().frame(width: 150, height: 350, alignment: (.center))
+                WebImage(url:URL(string: post.image_url)).resizable().frame(width: 120, height: 350, alignment: (.center))
                  Text(post.name).font(.title)
                   Text(post.description)
                  
