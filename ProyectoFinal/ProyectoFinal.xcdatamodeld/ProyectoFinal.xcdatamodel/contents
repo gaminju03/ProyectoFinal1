@@ -3,7 +3,14 @@
     <entity name="Notas" representedClassName="Notas" syncable="YES" codeGenerationType="class">
         <attribute name="texto" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="Pedido" representedClassName="Pedido" syncable="YES">
+        <attribute name="detalle" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="imagen" optional="YES" attributeType="String"/>
+        <attribute name="titulo" optional="YES" attributeType="String"/>
+    </entity>
     <elements>
         <element name="Notas" positionX="-36" positionY="9" width="128" height="58"/>
+        <element name="Pedido" positionX="0" positionY="54" width="128" height="103"/>
     </elements>
 </model>
