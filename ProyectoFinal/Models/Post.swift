@@ -9,7 +9,7 @@
 import Foundation
 
 struct Post : Codable{
-//Creamos las variables para usas 
+//Creamos las variables para usar
     let id : Int
     let name : String
     let description : String

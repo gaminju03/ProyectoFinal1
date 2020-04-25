@@ -30,8 +30,8 @@ class Webservices {
             }
 
             
-           let posts = try? JSONDecoder().decode([Post].self, from: data)//arreglo de tipo post 
-            DispatchQueue.main.async { //devuelve la datos que trea el Post
+           let posts = try? JSONDecoder().decode([Post].self, from: data)//arreglo
+            DispatchQueue.main.async { //devuelve la datos que trea 
                  completion(posts)
             }
            

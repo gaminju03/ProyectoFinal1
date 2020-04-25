@@ -37,10 +37,10 @@ struct ContentView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 80.0, height: 100.0)
-                            Text("Proyecto x")
+                            Text("Pedidos realizados")
                         }
                     }
-                }.navigationBarTitle(Text("Consulta API"))
+                }.navigationBarTitle(Text("AppBeer API"))
             }
         }
     }

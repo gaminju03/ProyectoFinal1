@@ -16,7 +16,7 @@ struct proyectotres: View {
     @State private var showOrderSheet = false
   //select
 @FetchRequest(entity: Pedido.entity(),//realiza solicitudes
-    sortDescriptors:[NSSortDescriptor(key: "titulo", ascending: true)]//busqueda orneda
+    sortDescriptors:[NSSortDescriptor(key: "titulo", ascending: true)]//select  que lo ordenen por titulo 
            /*predicate: NSPredicate(format: "detalle", Status.completed.rawValue)*/
     ) var orders:FetchedResults<Pedido>//extrae
     
@@ -38,8 +38,6 @@ struct proyectotres: View {
                 }
                 
              }.navigationBarTitle("My Orders")
-                
-           
         }
     }
 }

@@ -14,7 +14,7 @@ import CoreData
 struct proyectouno: View {
     @State private var textValue = ""  // state puede leer y escribir un alor
      @State private var updateRowID: NSManagedObjectID? //identifica el id de objeto para utilizarlo
-     @State private var updateRowValue = ""
+     @State private var updateRowValue = ""//
      @State private var isUpdate = false
      @ObservedObject private var datas = coreDataController // se puede usar mas de una vista
      
